@@ -39,7 +39,7 @@
 # NEWER CLEAN STEPS MUST BE AT THE END OF THE LIST
 # ************************************************
 
-$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/JAVA_LIBRARIES/aoscp-support-*)
+$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/JAVA_LIBRARIES/liquid-support-*)
 #$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/aoscp-support.aidl)
 
 # ************************************************

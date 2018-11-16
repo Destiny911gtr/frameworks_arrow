@@ -20,7 +20,7 @@ SUPPORT_PATH_LOTTIE := java/aoscp/support/lottie
 include $(CLEAR_VARS)
 
 LOCAL_USE_AAPT2 := true
-LOCAL_MODULE := aoscp-support-lottie
+LOCAL_MODULE := liquid-support-lottie
 LOCAL_SDK_VERSION := $(SUPPORT_CURRENT_SDK_VERSION)
 LOCAL_SRC_FILES := $(call all-java-files-under, $(SUPPORT_PATH_LOTTIE))
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
